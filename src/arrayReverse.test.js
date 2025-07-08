@@ -30,7 +30,7 @@ describe("Function 'arrayReverse':", () => {
     ]);
   });
 
-  it('should return arr with empty str if array consists an empty string', () => {
+  it('should return arr with empty str if arr consists empty string', () => {
     expect(arrayReverse([''])).toEqual(['']);
   });
 
